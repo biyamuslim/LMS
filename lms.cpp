@@ -163,7 +163,7 @@ switch(op)
 			ViewSemesterCourses(name1,code1,crdHrs1,sem1,name,code,crdHrs,semester);		
 			break;
 		}
-	case 6://************Add students*********
+	case 6://************Add STUDENTS*********
 			{
 				cout<<" Enter student name :"<<endl;
 				cin>>stdName;
@@ -196,7 +196,7 @@ switch(op)
 	    view_Std( stdRegNoList, stdNameList );
 		break;
 	}
-	case 10://***********Register courses********
+	case 10://***********Register Courses********
 	{
 		cout<<endl<<" Enter the registration number of student for course registration "<<endl;
 		cin>>RegNo;
@@ -205,7 +205,7 @@ switch(op)
 		RegisterCourses( stdRegNoList, stdCourseList, course_code, RegNo , code1);
 		break;
 	}
-	case 11://***********un register courses*******
+	case 11://***********Unregister courses*******
 	{   cout<<endl<<" Enter the registration number of student for course registration "<<endl;
 		cin>>RegNo;
 		cout<<" ENter the course_code for un_registering"<<endl;
